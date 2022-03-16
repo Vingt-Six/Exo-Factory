@@ -26,7 +26,7 @@
                         <a class="nav-link" href="/formations">Formation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Type de formation</a>
+                        <a class="nav-link" href="/types">Type de formation</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Eleve</a>
