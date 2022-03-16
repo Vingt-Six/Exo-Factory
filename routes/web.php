@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BuildingController;
+use App\Http\Controllers\FormationController;
 use App\Models\Building;
 use Illuminate\Support\Facades\Route;
 
@@ -22,3 +23,5 @@ Route::get('/', function () {
 
 
 Route::resource('buildings', BuildingController::class);
+
+Route::resource('formations', FormationController::class);

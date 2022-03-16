@@ -23,7 +23,7 @@
                         <a class="nav-link" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Formation</a>
+                        <a class="nav-link" href="/formations">Formation</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Type de formation</a>
