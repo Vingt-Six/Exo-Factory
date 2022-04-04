@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\BuildingController;
+use App\Http\Controllers\FormationController;
+use App\Http\Controllers\TypeController;
+use App\Models\Building;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +18,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $buildings = Building::all();
+    return view('welcome', compact('buildings'));
 });
+
+
+Route::resource('buildings', BuildingController::class);
+
+Route::resource('formations', FormationController::class);
+
+Route::resource('types', TypeController::class);
